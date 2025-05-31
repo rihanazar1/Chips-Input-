@@ -25,3 +25,27 @@ html, body, #root{
   font-size: 20px;
   border: 2px solid black;
 }
+
+.cross-icon{
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.chip-box{
+  background-color: rgb(179, 16, 144);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 6px;
+  border-radius: 10px;
+  color: white;
+  font-weight:700;
+}
+
+.chips-container{
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-items: center;
+  flex-wrap: wrap;
+}
